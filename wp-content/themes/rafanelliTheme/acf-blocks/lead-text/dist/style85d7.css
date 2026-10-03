@@ -1,0 +1,35 @@
+/****************
+ * Fonts
+ ****************/
+/****************
+ * Colors
+ ****************/
+/****************
+ * Grid Settings
+ ****************/
+/**************
+ * Buttons
+ **************/
+/****************
+ * Blocks
+ ****************/
+.block-lead-text {
+  margin: 2.5rem 0;
+}
+@media (min-width: 768px) {
+  .block-lead-text {
+    margin: 4rem 0;
+  }
+}
+.block-lead-text p {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .block-lead-text p {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+}

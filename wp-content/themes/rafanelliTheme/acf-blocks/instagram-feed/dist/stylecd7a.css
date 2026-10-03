@@ -1,0 +1,100 @@
+/****************
+ * Fonts
+ ****************/
+/****************
+ * Colors
+ ****************/
+/****************
+ * Grid Settings
+ ****************/
+/**************
+ * Buttons
+ **************/
+/****************
+ * Blocks
+ ****************/
+.block-instagram-slider .overline {
+  color: #707070;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .block-instagram-slider .overline {
+    margin-bottom: 1rem;
+  }
+}
+.block-instagram-slider .instagram-slider {
+  margin: 2.375rem 0 0;
+}
+@media (min-width: 1200px) {
+  .block-instagram-slider .instagram-slider {
+    margin: 5rem 0 0;
+  }
+}
+.block-instagram-slider .instagram-slider__single-slide {
+  padding: 0 0.25rem;
+}
+@media (min-width: 1200px) {
+  .block-instagram-slider .instagram-slider__single-slide {
+    padding: 0 0.4375rem;
+  }
+}
+.block-instagram-slider .instagram-slider .slick-arrow.slick-prev {
+  left: 0.625rem;
+}
+@media (min-width: 768px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-prev {
+    left: 39px;
+  }
+}
+@media (min-width: 1200px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-prev {
+    left: calc((100% - 75rem) / 2);
+  }
+}
+@media (min-width: 1320px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-prev {
+    left: calc((100% - 80.625rem) / 2);
+  }
+}
+@media (min-width: 1800px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-prev {
+    left: calc((100% - 88.125rem) / 2);
+  }
+}
+.block-instagram-slider .instagram-slider .slick-arrow.slick-next {
+  right: 0.625rem;
+}
+@media (min-width: 768px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-next {
+    right: 39px;
+  }
+}
+@media (min-width: 1200px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-next {
+    right: calc((100% - 75rem) / 2);
+  }
+}
+@media (min-width: 1320px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-next {
+    right: calc((100% - 80.625rem) / 2);
+  }
+}
+@media (min-width: 1800px) {
+  .block-instagram-slider .instagram-slider .slick-arrow.slick-next {
+    right: calc((100% - 88.125rem) / 2);
+  }
+}
+.block-instagram-slider .slick-slide {
+  width: 13.5rem;
+}
+.block-instagram-slider .c-btn-wrapper {
+  margin: 1.5rem 0 0;
+}
+.block-instagram-slider .c-btn-wrapper .c-btn-secondary {
+  border: 1px solid #b2b2b2;
+}
+@media (max-width: 767.98px) {
+  .block-instagram-slider .c-btn-wrapper {
+    text-align: left;
+  }
+}

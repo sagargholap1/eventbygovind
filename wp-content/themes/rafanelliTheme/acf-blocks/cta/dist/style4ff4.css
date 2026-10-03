@@ -1,0 +1,154 @@
+/****************
+ * Fonts
+ ****************/
+/****************
+ * Colors
+ ****************/
+/****************
+ * Grid Settings
+ ****************/
+/**************
+ * Buttons
+ **************/
+/****************
+ * Blocks
+ ****************/
+.block-cta__wrapper {
+  position: relative;
+  padding: 4rem 1.25rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .block-cta__wrapper {
+    padding: 5rem;
+  }
+}
+.block-cta__wrapper > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.block-cta__wrapper i:before {
+  font-size: 2.25rem;
+  margin: 0 0 1rem;
+}
+.block-cta .c-btn-wrapper {
+  margin-bottom: 0;
+}
+@media (max-width: 767.98px) {
+  .block-cta .c-btn-wrapper {
+    width: 100%;
+  }
+  .block-cta .c-btn-wrapper .c-btn.c-btn-secondary {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .block-cta .c-btn-wrapper + .c-btn-wrapper {
+    margin-top: 0.5rem;
+  }
+}
+.block-cta .c-btn-group {
+  margin-bottom: 0;
+}
+.block-cta:not(.block-cta--light) h1, .block-cta:not(.block-cta--light) .h1, .block-cta:not(.block-cta--light) h2, .block-cta:not(.block-cta--light) .h2, .block-cta:not(.block-cta--light) h3, .block-cta:not(.block-cta--light) .h3, .block-cta:not(.block-cta--light) h4, .block-cta:not(.block-cta--light) .h4, .block-cta:not(.block-cta--light) h5, .block-cta:not(.block-cta--light) .h5, .block-cta:not(.block-cta--light) h6, .block-cta:not(.block-cta--light) .h6 {
+  color: #fff;
+}
+.block-cta:not(.block-cta--light) .block-cta__wrapper {
+  background: #000;
+  color: #fff;
+}
+.block-cta:not(.block-cta--light) .block-cta__wrapper > div {
+  z-index: 2;
+  position: relative;
+}
+.block-cta:not(.block-cta--light) .block-cta__wrapper:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #202124;
+  opacity: 0.5;
+  z-index: 1;
+}
+.block-cta:not(.block-cta--light) .block-cta__wrapper i:before {
+  color: #fff;
+}
+.block-cta:not(.block-cta--light) .block-cta__description {
+  color: #fff;
+  text-align: initial;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-primary {
+  border-color: #fff;
+  background: #fff;
+  color: #333333;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-primary:hover, .block-cta:not(.block-cta--light) .c-btn.c-btn-primary:focus {
+  border-color: #fff;
+  background: transparent;
+  color: #fff;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-secondary {
+  border-color: #fff;
+  color: #fff;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-secondary:hover, .block-cta:not(.block-cta--light) .c-btn.c-btn-secondary:focus {
+  background: #fff;
+  border-color: #fff;
+  color: #202124;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt {
+  color: #fff;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:before, .block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:after {
+  color: #fff;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:hover, .block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:focus {
+  color: #b2b2b2;
+}
+.block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:hover:before, .block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:hover:after, .block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:focus:before, .block-cta:not(.block-cta--light) .c-btn.c-btn-tertiary-alt:focus:after {
+  color: #b2b2b2;
+}
+.block-cta.block-cta--light i:before {
+  color: #b2b2b2;
+}
+.block-cta.block-cta--light .overline {
+  color: #707070;
+}
+@media (min-width: 1200px) {
+  .block-cta.block-cta--light .block-cta__title {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.block-cta.block-cta--light .block-cta__title:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 4rem;
+  background: #707070;
+  margin: 1.5rem auto 0;
+}
+@media (min-width: 1200px) {
+  .block-cta.block-cta--light .block-cta__description {
+    max-width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: initial;
+  }
+}
+.block-cta.block-cta--light .c-btn.c-btn-primary {
+  border-color: #b2b2b2;
+  background: #b2b2b2;
+}
+.block-cta.block-cta--light .c-btn.c-btn-primary:hover, .block-cta.block-cta--light .c-btn.c-btn-primary:focus {
+  border-color: transparent;
+  background: transparent;
+}

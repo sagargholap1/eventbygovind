@@ -1,0 +1,71 @@
+/****************
+ * Fonts
+ ****************/
+/****************
+ * Colors
+ ****************/
+/****************
+ * Grid Settings
+ ****************/
+/**************
+ * Buttons
+ **************/
+/****************
+ * Blocks
+ ****************/
+@media (min-width: 768px) {
+  .block-home-press {
+    text-align: center;
+  }
+}
+.block-home-press .overline {
+  color: #707070;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .block-home-press .overline {
+    margin-bottom: 1rem;
+  }
+}
+.block-home-press__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.block-home-press__logos > div {
+  max-height: 3.375rem;
+  margin-bottom: 1.5rem;
+  max-width: 50%;
+  justify-self: center;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .block-home-press__logos > div {
+    max-height: 4.3125rem;
+    max-width: 11.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .block-home-press__logos {
+    margin: 5rem 0 4rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .block-home-press .c-btn-wrapper,
+.block-home-press .c-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+.block-home-press .c-btn-group {
+  margin: 1.5rem 0 2.625rem;
+}
+@media (min-width: 768px) {
+  .block-home-press .c-btn-group {
+    margin: 0;
+  }
+}
+.block-home-press .c-btn-secondary {
+  border-color: #b2b2b2;
+}

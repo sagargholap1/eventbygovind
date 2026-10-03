@@ -1,0 +1,58 @@
+/****************
+ * Fonts
+ ****************/
+/****************
+ * Colors
+ ****************/
+/****************
+ * Grid Settings
+ ****************/
+/**************
+ * Buttons
+ **************/
+/****************
+ * Blocks
+ ****************/
+.block-img-comp .row {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .block-img-comp .row {
+    margin-bottom: 1.875rem;
+  }
+  .block-img-comp .row:last-child {
+    margin-bottom: 0;
+  }
+}
+.block-img-comp [class*=col] {
+  padding: 0 0 1.25rem;
+}
+@media (min-width: 768px) {
+  .block-img-comp [class*=col] {
+    padding: 0 0.9375rem;
+  }
+}
+
+.block-img-single img {
+  display: block;
+  width: 100%;
+}
+.block-img-single.small-top {
+  margin-bottom: 1.25rem;
+}
+@media (min-width: 768px) {
+  .block-img-single.small-top {
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .fluid-two-small .wide-large {
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .fluid-two-small .ratio-1x1 {
+    height: 100%;
+  }
+}

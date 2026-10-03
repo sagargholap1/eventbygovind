@@ -1,0 +1,100 @@
+/****************
+ * Fonts
+ ****************/
+/****************
+ * Colors
+ ****************/
+/****************
+ * Grid Settings
+ ****************/
+/**************
+ * Buttons
+ **************/
+/****************
+ * Blocks
+ ****************/
+.block-image-text-links + .block-image-text-links {
+  margin-top: -4rem;
+}
+@media (min-width: 768px) {
+  .block-image-text-links + .block-image-text-links {
+    margin-top: -8rem;
+  }
+}
+.block-image-text-links__block {
+  display: block;
+}
+.block-image-text-links__block[target=_blank] .block-image-text-links__link::after {
+  content: "\ea1c";
+  font-family: "iconfont-rafanelliTheme";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.block-image-text-links a.block-image-text-links__block:hover, .block-image-text-links a.block-image-text-links__block:focus {
+  text-decoration: none;
+}
+.block-image-text-links a.block-image-text-links__block:hover .block-image-text-links__image-container, .block-image-text-links a.block-image-text-links__block:focus .block-image-text-links__image-container {
+  opacity: 0.8;
+}
+.block-image-text-links a.block-image-text-links__block:hover .block-image-text-links__link, .block-image-text-links a.block-image-text-links__block:focus .block-image-text-links__link {
+  color: #AA8B5A;
+  background-color: #F2F0EC;
+}
+.block-image-text-links__image-container {
+  padding-top: 55.873%;
+  position: relative;
+}
+.block-image-text-links__image-container img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.block-image-text-links__link {
+  padding: 1rem;
+  display: block;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.1375rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e1e1e1;
+  color: #333333;
+  position: relative;
+}
+.block-image-text-links__link::after {
+  content: "\ea1e";
+  font-family: "iconfont-rafanelliTheme";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 1rem;
+}
+.block-image-text-links__link[target=_blank]:after {
+  content: "\ea1c";
+  font-family: "iconfont-rafanelliTheme";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
