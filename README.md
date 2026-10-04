@@ -1,1 +1,1 @@
-# eventbygovind
+# Removed Career Pages - The pages are present in the folder Removed Folder()
